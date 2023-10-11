@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NavbarItemComponent } from './navbar/navbar-item/navbar-item.component';
 import { NavbarProfileComponent } from './navbar/navbar-profile/navbar-profile.component';
 import { VideoListItemComponent } from './video-list-item/video-list-item.component';
+import { VideoThumbnailComponent } from './video-list-item/video-thumbnail/video-thumbnail.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { VideoListItemComponent } from './video-list-item/video-list-item.compon
     NavbarComponent,
     NavbarItemComponent,
     NavbarProfileComponent,
-    VideoListItemComponent
+    VideoListItemComponent,
+    VideoThumbnailComponent
   ],
   imports: [
     BrowserModule,
