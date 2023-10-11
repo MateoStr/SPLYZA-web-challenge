@@ -1,6 +1,11 @@
 .video-thumbnail{
     border: 1px solid black;
     vertical-align: center;
-    text-adlign: center;
+    text-align: center;
     width: 80%;
+    background-color:gray;
 }
+
+
+
+

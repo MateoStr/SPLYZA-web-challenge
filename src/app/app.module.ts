@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NavbarItemComponent } from './navbar/navbar-item/navbar-item.component';
 import { NavbarProfileComponent } from './navbar/navbar-profile/navbar-profile.component';
-import { VideoListItemComponent } from './video-list-item/video-list-item.component';
-import { VideoThumbnailComponent } from './video-list-item/video-thumbnail/video-thumbnail.component';
+import { VideoListItemComponent } from './video-list/video-list-item/video-list-item.component';
+import { VideoThumbnailComponent } from './video-list/video-list-item/video-thumbnail/video-thumbnail.component';
+import { VideoListComponent } from './video-list/video-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { VideoThumbnailComponent } from './video-list-item/video-thumbnail/video
     NavbarItemComponent,
     NavbarProfileComponent,
     VideoListItemComponent,
-    VideoThumbnailComponent
+    VideoThumbnailComponent,
+    VideoListComponent
   ],
   imports: [
     BrowserModule,

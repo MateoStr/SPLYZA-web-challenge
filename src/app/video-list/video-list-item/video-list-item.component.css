@@ -1,12 +1,17 @@
 .card{
 
-    min-width: 20%;
+    min-width: 384px;
+    height: auto;
+    min-height: 291px;
+    top: 147px;
+    left: -2045px;
+
     background-color: rgb(66, 66, 250);
     float: left;
-    height:20em;
     
     margin-bottom: 5%;
     margin-left: min(50px, 30%);
+    
 
     vertical-align: center;
     border: 3px solid black;
