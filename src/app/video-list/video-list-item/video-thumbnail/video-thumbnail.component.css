@@ -1,9 +1,19 @@
 .video-thumbnail{
+   
+   /*
     border: 1px solid black;
     vertical-align: center;
     text-align: center;
-    width: 80%;
+    width: 360px;
+    height: 10%;
     background-color:gray;
+    */
+
+    
+    width:384px;
+    min-height:216px;
+    background-color: gray;
+
 }
 
 

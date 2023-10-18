@@ -1,9 +1,9 @@
 .card{
 
-    min-width: 384px;
-    height: auto;
-    min-height: 291px;
-    top: 147px;
+    width: 384px;
+    
+    height: 291px;
+
     left: -2045px;
 
     background-color: rgb(66, 66, 250);
@@ -12,9 +12,10 @@
     margin-bottom: 5%;
     margin-left: min(50px, 30%);
     
-
-    vertical-align: center;
+display:inline-block;
+    
     border: 3px solid black;
+    
 
 
 }

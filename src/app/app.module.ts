@@ -9,6 +9,7 @@ import { NavbarProfileComponent } from './navbar/navbar-profile/navbar-profile.c
 import { VideoListItemComponent } from './video-list/video-list-item/video-list-item.component';
 import { VideoThumbnailComponent } from './video-list/video-list-item/video-thumbnail/video-thumbnail.component';
 import { VideoListComponent } from './video-list/video-list.component';
+import { VideoDetailsComponent } from './video-list/video-details/video-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { VideoListComponent } from './video-list/video-list.component';
     NavbarProfileComponent,
     VideoListItemComponent,
     VideoThumbnailComponent,
-    VideoListComponent
+    VideoListComponent,
+    VideoDetailsComponent
   ],
   imports: [
     BrowserModule,
